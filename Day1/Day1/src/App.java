@@ -7,7 +7,7 @@ public class App {
         int maxCal = 0;
     
 
-        BufferedReader br = new BufferedReader(new FileReader("input/day1.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("Day1/Day1/input/day1.txt"));
         String line;
         while((line=br.readLine())!=null){
             String lCal = line.trim();
